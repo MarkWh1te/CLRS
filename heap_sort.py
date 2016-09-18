@@ -15,12 +15,12 @@ def heapsize(A):
 def max_heapify(A,heapsize,i):
     l = left(i)
     r = right(i)
-    if l < heapsize and A[l] > A[i]:
+    if l <= heapsize and A[l] > A[i]:
         largest = l
     else:
         largest = i
 
-    if r < heapsize and A[r] > A[largest]:
+    if r <= heapsize and A[r] > A[largest]:
         largest = r
     
     if largest != i:
