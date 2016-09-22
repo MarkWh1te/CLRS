@@ -17,9 +17,8 @@ def quick_sort(A,p,r):
         q = partition(A,p,r)
         quick_sort(A,p,q-1)
         quick_sort(A,q+1,r)
-            
-#  a = [2,1,10,9,8,7] 
+
+#  a = [2,1,10,9,8,7]
 #  print(a)
 #  quick_sort(a,0,len(a)-1)
 #  print(a)
-    

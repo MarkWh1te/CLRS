@@ -22,8 +22,3 @@ print(a)
 randomized_quicksort(a,0,len(a)-1)
 print(a)
 
-    
-    
-    
-    
-
