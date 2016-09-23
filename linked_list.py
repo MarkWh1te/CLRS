@@ -27,7 +27,7 @@ class UnorderedList(object):
     def is_empty(self):
         return self.head == None
 
-    def add(self,iterm):
+    def insert(self,iterm):
         item = Node(item)
         item.set_next(self.head)
         self.head = item
